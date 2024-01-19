@@ -1,0 +1,4 @@
+import pandas as pd
+data = pd.read_csv('user.csv', delimiter = ';',
+                   names=['user_name', 'user_surname', 'use_age', 'user_id', 'user_high'])
+print(data)
